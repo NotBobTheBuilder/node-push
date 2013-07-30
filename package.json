@@ -1,0 +1,10 @@
+{
+  "name": "node-push",
+  "version": "0.1.0",
+  "description": "simple push service in node.js",
+  "author": "Jack Wearden",
+  "devDependencies": {
+    "socket.io": "~0.9.16",
+    "express": "~3.3.4"
+  }
+}
