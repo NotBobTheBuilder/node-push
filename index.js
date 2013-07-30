@@ -1,8 +1,5 @@
 var app = require('express')(),
-    server = require('http').createServer(app),
-    io = require('socket.io').listen(server);
-
-server.listen(3000);
+    io = require('socket.io').listen(app.listen(3000));
 
 app.get('/', function (req, res) {
   res.sendfile('./index.html');
